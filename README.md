@@ -1140,7 +1140,7 @@ test('scores the guess with duplicates in the code', ()=> {
 ```
 
 
-now that we have a scoring function that we're confident in, we can go ahead and work omn the main game loop feature
+now that we have a scoring function that we're confident in, we can go ahead and work on the main game loop feature
 
 
 
