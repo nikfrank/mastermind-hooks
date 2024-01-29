@@ -1,0 +1,67 @@
+.game-container {
+  display: flex;
+  flex-direction: row;
+
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.guesses {
+  width: 100%;
+}
+
+.guesses > ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.guesses > ul > li {
+  flex-grow: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 1vw;
+}
+
+.guesses svg {
+  height: 100%;
+  width: auto;
+}
+
+.guesses svg circle {
+  stroke: black;
+  stroke-width: 1px;
+}
+
+.guesses .empty circle {
+  stroke: transparent;
+}
+
+.scorebox {
+  flex-grow: 1;
+  max-width: 20%;
+}
+
+.scorebox ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.scorebox ul li {
+  width: 3vw;
+  height: 3vw;
+
+  margin: 0;
+  flex-basis: 50%;
+}

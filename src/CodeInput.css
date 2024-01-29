@@ -1,0 +1,44 @@
+.CodeInput {
+  display: flex;
+  flex-direction: row;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.CodeInput button {
+  width: 20%;
+}
+
+.CodeInput ul {
+  width: 80%;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.CodeInput ul li {
+  flex-grow: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 1vw;
+}
+
+.CodeInput svg {
+  height: 100%;
+  width: auto;
+}
+
+.CodeInput svg circle {
+  stroke: black;
+  stroke-width: 1px;
+}
